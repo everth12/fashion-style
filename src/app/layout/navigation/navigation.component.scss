@@ -19,4 +19,18 @@
 .font{
     font-size:x-large;
     text-decoration-color: blanchedalmond;
+    font-family: 'calisto-mt-regular', sans-serif;
+}
+
+
+.textoo{
+    font-size: 30px;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgb(11, 4, 75)), color-stop(0.15, rgb(26, 18, 138)), color-stop(0.3, rgb(47, 47, 168)), color-stop(0.45, rgb(18, 97, 216)), color-stop(0.6, rgb(159, 216, 159)),color-stop(0.75, rgb(246, 252, 246)), color-stop(0.9, rgb(241, 241, 229)), color-stop(1, rgb(252, 241, 241)) );
+    background-image: gradient( linear, left top, right top, color-stop(0, rgb(11, 4, 75)), color-stop(0.15, rgb(26, 18, 138)), color-stop(0.3, rgb(47, 47, 168)), color-stop(0.45, rgb(18, 97, 216)), color-stop(0.6, rgb(159, 216, 159)),color-stop(0.75, rgb(246, 252, 246)), color-stop(0.9, rgb(241, 241, 229)), color-stop(1, rgb(252, 241, 241)) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.image{
+    filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
 }
