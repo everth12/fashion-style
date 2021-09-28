@@ -1,0 +1,22 @@
+.dg-navigation{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        background: rgba(0,0,0,0.8);
+    }
+
+.nav-logo{
+    font-size: 500;
+    font-weight: 200;
+}
+.column{
+    vertical-align: middle;
+    justify-content:start;
+    
+}
+.font{
+    font-size:x-large;
+    text-decoration-color: blanchedalmond;
+}
